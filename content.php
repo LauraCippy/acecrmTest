@@ -9,7 +9,10 @@ define('IDAZIENDA', $_SESSION['idAzienda']);
 #file per funzione per richiamare le classi
 include 'control/config.inc';
 #lingua
-include 'html/lingua.php';
+//include 'html/lingua.php';
+//percorso relativo
+include(__DIR__ . '/control/lingua.php');
+
 #oggetti 
 include 'control/oggetti.php';
 ?>
