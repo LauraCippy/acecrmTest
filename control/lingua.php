@@ -17,4 +17,6 @@ if (file_exists($translationsPath)) {
 } else {
     die("Il file di traduzione non esiste: $translationsPath");
 }
+
+
 ?>
