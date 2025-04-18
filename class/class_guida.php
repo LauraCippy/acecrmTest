@@ -1,6 +1,6 @@
 <?php
 
-include_once $_SERVER["DOCUMENT_ROOT"] . 'acecrmTest/libreria/mysql_class.php';
+include_once $_SERVER["DOCUMENT_ROOT"] . '/libreria/mysql_class.php';
 
 class class_guida extends MySQL {
 
